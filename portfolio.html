@@ -1,0 +1,679 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+#wrapper {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+	
+	#header {
+		background-color: #1ec5e4;
+		width: 1160px;
+		height: 35px;
+		padding: 20px;
+		position: fixed;
+		top: 0;
+	}
+	
+	#logo{
+		font-family: "Exotc350 Bd BT";
+		width: 200px;
+		color: black;
+		font-size: 30px;
+		margin-left: 15px;
+	}
+	
+	#headings{
+		font-family: "Arial Rounded MT Bold", "Arial Narrow";
+		color: black;
+		font-size: 15px;
+		float: right;
+		margin-right: 30px;
+		margin-top: 13px;
+	}
+	
+	#background{
+		background-color: white;
+		width: 1160px;
+		height: 3240px;
+		padding: 20px;
+	}
+	
+	#hd{
+		font-family: "Arial Rounded MT Bold", "Bauhaus 93", ;
+		font-size: 50px;
+		color: black;
+		text-align: center;
+		transition: 1s;
+		cursor: pointer;
+		margin-top: 50PX;
+	}
+	#hd:hover{
+		transform: scale(1.3);
+	}
+	
+	#box1{
+		width: 300px;
+		height: 300px;
+		margin-left: 40px;
+		margin-top: 110px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	
+	#box1:hover{
+		transform: scale(1.3);}
+
+	
+	#b1t{font-family:   'Arial Black';
+		color: black;
+		font-size: 18px;
+		font-style: black;
+		margin-left: 40px;
+		text-decoration: underline;
+	}
+
+	
+	#box2{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 90px;
+		margin-top: 110px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	
+	#box2:hover{
+		transform: scale(1.3);}
+	
+	#b2t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 220px;
+		text-decoration: underline;
+	}
+	
+	#box3{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 40px;
+		margin-top: 110px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	
+    #box3:hover{
+		transform: scale(1.3);}
+	
+	#b3t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 170px;
+		text-decoration: underline;
+	}
+	
+	#box4{
+		width: 300px;
+		height: 300px;
+		margin-left: 40px;
+		margin-top: 100px;
+		cursor: pointer;
+		transition: 1s;
+	}
+	#box4:hover{
+		transform: scale(1.3);
+	}
+	#b4t{font-family:   'Arial Black';
+		color: black;
+		font-size: 18px;
+		font-style: black;
+		margin-left: 40px;
+		text-decoration: underline;
+	}
+	
+	#box5{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 90px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	
+	#box5:hover{
+		transform: scale(1.3);}
+	
+	#b5t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 170px;
+		text-decoration: underline;
+	}
+	
+	#box6{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	
+#box6:hover{
+		transform: scale(1.3);}
+	
+	#b6t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 140px;
+		text-decoration: underline;
+	}
+	
+	#box7{
+		width: 300px;
+		height: 300px;
+		margin-left: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box7:hover{
+		transform: scale(1.3);}
+	
+	#b7t{font-family: 'Arial Black';
+		color: black;
+		font-size: 18px;
+		font-style: black;
+		margin-left: 40px;
+		text-decoration: underline;
+	}
+	
+	#box8{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 90px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box8:hover{
+		transform: scale(1.3);}
+	
+	#b8t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 270px;
+		text-decoration: underline;
+	}
+	
+	#box9{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box9:hover{
+		transform: scale(1.3);}
+	
+	#b9t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 150px;
+		text-decoration: underline;
+	}
+	
+	#box10{
+		width: 300px;
+		height: 300px;
+		margin-left: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box10:hover{
+		transform: scale(1.3);}
+	
+	#b10t{font-family:   'Arial Black';
+		color: black;
+		font-size: 18px;
+		font-style: black;
+		margin-left: 40px;
+		text-decoration: underline;
+	}
+	
+	
+	#box11{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 90px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box11:hover{
+		transform: scale(1.3);}
+	
+	#b11t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 270px;
+		text-decoration: underline;
+	}
+	
+	#box12{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box12:hover{
+		transform: scale(1.3);}
+	
+	#b12t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 170px;
+		text-decoration: underline;
+	}
+	
+	#box13{
+		width: 300px;
+		height: 300px;
+		margin-left: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box13:hover{
+		transform: scale(1.3);}
+	
+	#b13t{font-family:   'Arial Black';
+		color: black;
+		font-size: 18px;
+		font-style: black;
+		margin-left: 40px;
+		text-decoration: underline;
+	}
+	
+	#box14{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 90px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box14:hover{
+		transform: scale(1.3);}
+	
+	#b14t{
+    font-family: 'Arial Black';
+    color: black;
+    float: right;
+    font-size: 18px;
+    font-style: black;
+    margin-right: 270px;
+    text-decoration: underline;
+	}
+	
+	#box15{
+		width: 300px;
+		height: 300px;
+		float: right;
+		margin-right: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box15:hover{
+		transform: scale(1.3);}
+	
+	#b15t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 220px;
+		text-decoration: underline;
+	}
+	
+	#box16{
+		width: 300px;
+		height: 212px;
+		margin-left: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box16:hover{
+		transform: scale(1.3);}
+	
+	#b16t{font-family:   'Arial Black';
+		color: black;
+		font-size: 18px;
+		font-style: black;
+		margin-left: 40px;
+		text-decoration: underline;
+	}
+	
+	#box17{
+		width: 300px;
+		height: 212px;
+		float: right;
+		margin-right: 90px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box17:hover{
+		transform: scale(1.3);}
+	
+	#b17t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 250px;
+		text-decoration: underline;
+	}
+	
+	#box18{
+		width: 300px;
+		height: 201px;
+		float: right;
+		margin-right: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box18:hover{
+		transform: scale(1.3);}
+	
+	#b18t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 195px;
+		text-decoration: underline;
+	}
+	
+	#box19{
+		width: 300px;
+		height: 225px;
+		margin-left: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box19:hover{
+		transform: scale(1.3);}
+	
+	#b19t{font-family:   'Arial Black';
+		color: black;
+		font-size: 18px;
+		font-style: black;
+		margin-left: 40px;
+		text-decoration: underline;
+	}
+	
+	#box20{
+		width: 300px;
+		height: 200px;
+		float: right;
+		margin-right: 90px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box20:hover{
+		transform: scale(1.3);}
+	
+	#b20t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 250px;
+		text-decoration: underline;
+	}
+	
+	#box21{
+		width: 300px;
+		height: 201px;
+		float: right;
+		margin-right: 40px;
+		margin-top: 100px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#box21:hover{
+		transform: scale(1.3);}
+	
+	#b21t{font-family:   'Arial Black';
+		color: black;
+		float: right;
+		font-size: 18px;
+		font-style: black;
+		margin-right: 200px;
+		text-decoration: underline;
+	}
+	
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+	
+#t3{
+		font-family:"Times New Roman", "serif";
+		color: black;
+		font-size: 25px;
+		text-align: center;
+		font-style: black;
+		margin-top: 100px;
+	}
+	
+	#icon1{
+		width: 21px;
+		height: 21px;
+		margin-left: 520px;
+		margin-top: 10px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#icon1:hover{
+		transform: scale(1.2);}
+	
+	#icon2{
+		width: 22px;
+		height: 21px;
+		float: right;
+		margin-top: 10px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#icon2:hover{
+		transform: scale(1.2);}
+	
+	#icon3{
+		width: 21px;
+		height: 21px;
+		float: right;
+		margin-top: 10px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#icon3:hover{
+		transform: scale(1.2);}
+	
+	#icon4{
+		width: 24px;
+		height: 20px;
+		float: right;
+		margin-right: 520px;
+		margin-top: 10px;
+		transition: 1s;
+		cursor: pointer;
+	}
+	#icon4:hover{
+		transform: scale(1.2);}
+	
+	#copywrt{
+		font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		font-size: 14px;
+		color: black;
+		text-align: center;
+		margin-top:30px;
+	}
+	
+	
+	.space1{margin-right: 35px;}
+	.space2{margin-right: 35px;}
+	.space3{font-size: 14px;}
+	.space4{margin-right: 10px;}
+	.space5{font-size: 14px; text-decoration: none; font-family:"Times New Roman", "serif";}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header">
+	<div id="headings"><span class="space1"><a href="index.html">Home</a></span> <span class="space1"><a href="about.html">About</a></span> <span class="space2"><a href="portfolio.html">Portfolio</a></span> <a href="contact.html">Contact</a></div>
+	<div id="logo"><a href="index.html">TajGraphics</a></div>
+		 </div>	
+	<div id="background">
+		<div id="hd">PORTFOLIO</div>
+			 <div id="box3"><img src="images/images/Untitled-2-(4)_06.jpg" width="300" height="300" alt=""/></div>
+	<div id="box2"><img src="images/founders day.jpg" width="300" height="300" alt=""/></div>	
+	<div id="box1"><img src="images/Shafawu.jpg" width="300" height="300" alt=""/></div>
+		<div id="b3t">Kambala Smocks<br>
+		</div>
+		<div id="b2t">Kambala Smocks<br>
+		</div>
+		<div id="b1t">Shafawu Healthy Menu<br>
+		</div>
+		<div id="box6"><img src="images/XXX.jpg" width="300" height="300" alt=""/></div>
+		<div id="box5"><img src="images/ggg.jpg" width="300" height="300" alt=""/></div>
+		<div id="box4"><img src="images/d.jpg" width="300" height="300" alt=""/></div>
+		<div id="b6t">New Yendi City Drive<br>
+		</div>
+		<div id="b5t">Woman Commissioner<br>
+	  </div>
+		<div id="b4t">Environmental Prefect<br>
+		</div>
+		<div id="box9"><img src="images/inv..jpg" width="300" height="300" alt=""/></div>
+		<div id="box8"><img src="images/1 BIG ZAK.jpg" width="300" height="300" alt=""/></div>
+		<div id="box7"><img src="images/gt.jpg" width="300" height="300" alt=""/></div>
+		<div id="b9t">Naming Ceremony<br>
+		</div>
+		<div id="b8t">Congrtulation<br>
+		</div>
+		<div id="b7t">Ishaq Mma Bia<br>
+		</div>
+		<div id="box12"><img src="images/Untitled-2-Recovered.jpg" width="300" height="300" alt=""/></div>
+		<div id="box11"><img src="images/Untitled-1.jpg" width="300" height="300" alt=""/></div>
+		<div id="box10"><img src="images/lev.jpg" width="300" height="300" alt=""/></div>
+		<div id="b12t">Double Exposure<br>
+		</div>
+		<div id="b11t">Taj Kambala<br>
+		</div>
+		<div id="b10t">Livetation<br>
+		</div>
+		<div id="box15"><img src="images/WOTSA TATU.2.jpg" width="300" height="300" alt=""/></div>
+		<div id="box14"><img src="images/Untitled-4.jpg" width="300" height="300" alt=""/></div>
+		<div id="box13"><img src="images/aro.jpg" width="300" height="300" alt=""/></div>
+		<div id="b15t">School Crist<br>
+		</div>
+	  <div id="b14t">School Crist<br>
+	  </div>
+		<div id="b13t">Dream Avenue<br>
+		</div>
+	  <div id="box18"><img src="images/R (10).jpg" width="300" height="201" alt=""/></div>
+	  <div id="box17"><img src="images/8.jpg" width="300" height="212" alt=""/></div>
+	  <div id="box16"><img src="images/1.jpg" width="300" height="212" alt=""/></div>
+	  <div id="b18t">Matte Painting<br>
+	  </div>
+	  <div id="b17t">Matte Painting</div>
+	  <div id="b16t">Matte Painting<br>
+	  </div>
+	  <div id="box21"><img src="images/eshm.jpg" width="300" height="225" alt=""/></div>
+	  <div id="box20"><img src="images/hmd.jpg" width="300" height="200" alt=""/></div>
+	  <div id="box19"><img src="images/rhm...jpg" width="300" height="225" alt=""/></div>
+	  <div id="b21t">Business Card<br>
+	  </div>
+	  <div id="b20t">Business Card<br>
+	  </div>
+		<div id="b19t">Business Card<br>
+	  </div>
+	  <div id="t3">Have a project in mind? I'd love to connect with you.<br><br>
+    <span class="space3">We can also stay in tutch via social Media:</span></div>
+    <div id="icon4"><img src="images/Untitled-4-Recovered_11.jpg" alt="" width="24" height="19" usemap="#Map"/>
+      <map name="Map">
+        <area shape="rect" coords="-1,0,23,21" href="https://twitter.com/home" target="_parent">
+      </map>
+    </div>
+    <div class="space4" id="icon3"><img src="images/images/Untitled-4-Recovered_08_07.jpg" alt="" width="21" height="22" usemap="#Map2"/>
+      <map name="Map2">
+        <area shape="rect" coords="-2,0,23,22" href="https://www.youtube.com/channel/UC3quPlAfoKUGmGscjP37UAA" target="_parent">
+      </map>
+    </div>
+	  <div class="space4" id="icon2"><img src="images/Untitled-4-Recovered_03.jpg" alt="" width="22" height="22" usemap="#Map3"/>
+        <map name="Map3">
+          <area shape="rect" coords="0,0,22,22" href="https://www.instagram.com/?next=/" target="_parent">
+        </map>
+	  </div>
+	  <div id="icon1"><img src="images/Untitled-4-Recovered_05.jpg" alt="" width="21" height="21" usemap="#Map4"/>
+        <map name="Map4">
+          <area shape="rect" coords="2,1,21,24" href="https://www.facebook.com/TajGraphics01" target="_parent">
+        </map>
+	  </div>
+		 <div id="copywrt">@2020-2023 personal portfolio.</div>
+	</div>
+	</div>
+</body>
+</html>
